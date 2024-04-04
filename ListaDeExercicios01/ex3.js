@@ -6,7 +6,7 @@ const readline = require('readline');
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
-});
+});  
 
 rl.question('Digite o salário mensal atual do funcionário: ', (salarioAtual) => {
     rl.question('Digite o percentual de reajuste: ', (percentualReajuste) => {
